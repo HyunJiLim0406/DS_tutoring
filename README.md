@@ -1,3 +1,3 @@
 # DS_tutoring
 
-Delayed submission due가 끝나면 업로드합니다.
+Delayed submission due 이후 업로드합니다.
