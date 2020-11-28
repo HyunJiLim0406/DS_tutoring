@@ -30,7 +30,7 @@ void selection_sort_stable(data* list, int n)
 		least = i;
 		for (j = i + 1; j < n; j++)
 			if (list->score[j] < list->score[least]) least = j;
-		for (j = least; j > i; j--) { //ÀÌ¿ôÇÑ µ¥ÀÌÅÍ³¢¸® swap
+		for (j = least; j > i; j--) { //ì´ì›ƒí•œ ë°ì´í„°ë¼ë¦¬ swap
 			SWAP(list->score[j], list->score[j - 1], temp);
 			SWAP(list->id[j], list->id[j - 1], temp);
 		}
